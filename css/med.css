@@ -1,0 +1,801 @@
+
+body{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+    
+    
+}
+
+html{
+    overflow-x: hidden} 
+
+/******* starting styling upperbar *****/
+
+.uperBar{
+    background-color: #207dff;
+    color: #fff;
+    padding: 5px 0;
+   
+}
+
+
+
+.uperBar a{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.uperBar a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.uperBar .icon-paper-plane,.uperBar{
+    margin-right: 8px;
+}
+
+
+.uperBar a:first-child{
+    border-right: 1px solid #4c97ff;
+}
+@media(max-width:992px){
+    .hide-upper{
+        display: none;
+    }
+
+}
+
+
+/******* ending styling upperbar *****/
+/******* starting styling mynavbar *****/
+
+.navbar{
+    background-color: #edf0f2;
+     opacity: .8;
+    padding: 20px 0;
+}
+.navbar .navbar-brand{
+ color: #000;
+    text-transform: capitalize;
+    font-size:25px;
+    font-weight: 800;
+    transition: all 1s ease-in-out;
+}
+.navbar ul li a{
+    text-transform: capitalize;
+    color: #000;
+    display: block;
+    position: relative;
+ }
+
+ .nav-item .nav-link  span{
+  position: absolute;
+  bottom:0;
+  left: 0;
+  right: 0;
+  display: inline-block;
+  width: 0;
+  height: 2px;
+  background-color: fuchsia;    
+}
+
+
+
+/*
+.navbar ul li a:after{
+  content: "";
+  height: 2px;
+    position: absolute;
+    background-color: dodgerblue;
+    bottom: 0;
+    left:0;
+}
+
+.navbar ul li:hover a:after{
+ 
+  width: 100%;
+}
+*/
+
+
+
+
+.navbar ul .nav-item:hover{
+    border-bottom-width: 1px;
+}
+
+.type{
+    height: 100px;
+}
+.navbar ul li {
+    margin-right: 9px;
+}
+
+.navbar  .navbar-brand{
+    
+    padding-right: 380px;
+}
+
+.navbar .ss{
+    color: #fff;
+    display: block;
+    padding: 0.7rem 1rem;
+    background-color: #fe5f55;
+    border-radius: 8px;
+    font-size: 14px;
+}
+.navbar .dd:hover .ss{
+    background-color: #4c97ff;
+    text-decoration: none;
+}
+
+
+
+/******* ending styling mynavbar *****/
+
+/******* starting styling myhome *****/
+.myhome{
+  background-image: url('../img/bg_3.jpg');
+    background-size: cover;
+  
+}
+
+.myhome .part2 p:first-of-type{
+    margin-top: 60px;
+    color: #4c97ff;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.myhome .part2 h2{
+    font-weight: 900;
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+
+.myhome .part2 p:last-of-type{
+    margin-top: 60px;
+    color: #636364;
+    line-height: 1.9;
+}
+
+.myhome .part2 a{
+    padding: 15px 25px;
+    background-color: #4c97ff;
+    color: #fff;
+    border-radius: 30px;
+    margin-bottom: 60px;
+    display: inline-block
+}
+
+.myhome .part2 a:hover{
+ text-decoration: none;
+}
+/******* ending styling myhome *****/
+
+
+/******* starting styling about *****/
+.about img{
+    width: 100%;
+    height: 100%;
+}
+
+.about .p2{
+    padding-top:120px; 
+    padding-left:80px; 
+    margin-bottom: 50px;
+   
+}
+.about .p2 p{
+  color:  #a5a5a5;
+  font-size: 18px;
+    line-height: 1.8;
+    
+}
+.about .p2 h2{
+ font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.about .p2 span{
+ color:#4c97ff;
+}
+
+.about .p2 a:first-of-type{
+    padding: 15px 25px;
+    background-color: #4c97ff;
+    color: #fff;
+    border-radius: 30px;
+    margin-bottom: 60px;
+    display: inline-block
+}
+
+.about .p2 a:last-of-type{
+    padding: 15px 25px;
+    background-color: #fe5f55;
+    color: #fff;
+    border-radius: 30px;
+    margin-bottom: 60px;
+    display: inline-block;
+    transition: all .2s ease-in-out;
+}
+
+.about .p2 a:last-of-type:hover{
+    background-color:#fff;
+    color:#fe5f55 ;
+    border:1px solid #fe5f55; 
+
+}
+
+.about .p2 a:hover{
+    text-decoration: none;
+}
+/******* ending styling about *****/
+
+
+/******* ending styling ourServices *****/
+.ourServices .fhourS{
+ margin-top: 80px; 
+ margin-bottom: 50px; 
+ font-weight: 700;
+ font-size:50px;
+    
+}
+
+.ourServices .sec1{
+      
+}
+
+.ourServices h2{
+    font-size: 25px;
+}
+.ourServices p{
+    width:80%;
+    color: #999;
+    line-height: 1.8;
+}
+
+.ourServices .iii{
+    color: #fe5f55;
+    font-size: 60px;
+    border-radius: 50%;
+    padding: 0px 9px 3px 10px;
+    background-color: #ffeeed;
+}
+
+.ourServices .hcolor{
+    color: #4c97ff;
+    font-weight: 600;
+    letter-spacing: 2px;
+    
+    
+}
+
+.ourServices input,.ourServices textarea{
+  border-radius: 30px;
+  padding: 15px 15px;
+}
+ .ourServices select{
+     display: inline-block;
+     border-radius: 30px;
+     padding: 5px;    
+}
+.ourServices .group{
+    margin-bottom: 30px;
+}
+
+.ourServices input[type=submit]{
+    background-color: #fe5f55;
+    color: #fff;
+    width: 100%;
+}
+.ourServices input[type=submit]:hover{
+    background-color:#fff;
+    color:#fe5f55;
+}
+
+/******* ending styling ourServices *****/
+
+/******* starting styling health *****/
+.health{
+    margin-top: 60px;
+    background-image: url('../img/bg_2.jpg');
+    width: 100%;
+    
+}
+
+.health .overlay{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.3);
+   
+    width: 100%;
+   
+}
+.health h2{
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+   padding-top: 140px;
+    
+}
+
+.health p{
+      color: #dfeef0;
+    margin-top: 30px;
+}
+.health a{
+    color:#000;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-bottom: 130px;
+    margin-top: 30px;
+}
+
+.health a:hover{
+text-decoration: none;    
+    
+}
+
+/******* ending styling health *****/
+
+/******* starting styling department *****/
+.department{
+    
+}
+.department .oursec{
+    padding-top: 55px;
+    border:1px solid #eee;
+}
+
+.department .oursec h2{
+    margin-top: 23px;
+}
+.department .oursec p{
+  color: #999;
+  padding:10px 12px;
+    font-size: 19px;
+    line-height: 1.7;
+}
+
+ 
+.department img{
+    width: 100%;
+/*    height: 100%;*/
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.department .flaticon-stethoscope{
+    font-size: 40px;
+    color: #237fff;
+    
+}
+
+.department .oursec:hover{
+transition: all .3s ease-in-out;
+cursor: pointer;
+background-color: #237fff;
+color: #fff ;
+}
+
+.department .oursec:hover .flaticon-stethoscope{
+  color: #fff ;
+}.department .oursec:hover p{
+  color: #ddd ;
+}
+
+
+
+/******* ending styling department *****/
+
+
+/******* starting styling goodDoctors *****/
+.goodDoctors{
+    margin-top: 110px;
+    
+}
+
+.goodDoctors .ddf{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+.goodDoctors .par1{
+    font-size: 17px;
+    width: 60%;
+    margin: 0 auto;
+    color:#a5a5a5;
+   
+}
+
+.goodDoctors img{
+    width: 90%;
+    height: 350px;
+}
+
+.goodDoctors .card{
+ padding-left: 20px;
+    border: none;
+    margin-top: 110px;
+}
+
+
+/*
+.goodDoctors .container-f{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+*/
+
+.goodDoctors h4{
+    font-size: 25px;
+}
+
+.goodDoctors span{
+    color: #207dff;
+    letter-spacing:2px; 
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.goodDoctors .card p{
+    color: #999;
+    font-size: 17px;
+    line-height: 1.7;
+    margin-top: 13px;
+}
+
+.goodDoctors .card a{
+    border-radius: 20px;
+    font-size: 17px;
+}
+/******* ending styling goodDoctors *****/
+
+
+
+/******* starting styling operation *****/
+
+.operation{
+    margin-top: 100px;
+   
+    background-image: url('../img/bg_3.jpg');
+    background-size: cover;
+    
+   
+}
+
+.operation .overlay{
+    position: relative;
+    top: 0;
+    bottom: -0;
+    left: 0;
+    right: 0;
+    background-color:#408bf3;
+    opacity: .8;
+    width: 100%;
+     padding-bottom:  150px;
+    /*jq edit height*/
+}
+.operation .di1 p{
+    padding-top: 120px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 1.5;
+    
+    
+}
+
+
+.operation .di1 h2{
+    font-size: 52px;
+    color:#fff;
+    margin-bottom: 35px;
+    
+}
+
+.operation .di1 a{
+    padding: 15px 25px;
+    background-color: #fe5f55;
+    color: #fff;
+    border-radius: 30px;
+    margin-bottom: 60px;
+    display: inline-block;
+   font-size: 19px;
+
+}
+.operation .di1 a:hover{
+    background-color: transparent;
+    border:1px solid #fe5f55;
+    color: #fe5f55;
+    text-decoration: none;
+}
+
+
+.operation .di2{
+  margin-top: 110px;
+  padding-left: 80px    
+}
+.operation .di2 h2{
+  color: #fff;
+  font-size: 50px;
+    font-weight: 800;
+}
+.operation .di2 span{
+  color:#fff;
+  opacity: .8;    
+  font-size: 19px;
+}
+
+.operation .loc{
+    padding-bottom:40px;
+    text-align: center;
+    
+}
+
+.operation .loc:first-of-type,.operation .loc:nth-child(3){
+    border-right: 3px solid #6194e2;
+     
+}
+.operation .loc:first-of-type,.operation .loc:nth-child(2){
+    border-bottom:3px solid #6194e2;
+}
+
+/******* ending styling operation *****/
+
+
+/******* starting styling Update *****/
+.Update{
+    margin-top: 100px;
+}
+
+.Update h2{
+     font-size: 47px;
+     font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.card-parent{
+   margin-top: 110px; 
+}
+.Update p{
+     font-size: 18px;
+     color: #999;
+    margin-bottom: 20px;
+    line-height: 1.7;
+}
+
+.Update .card{
+    border:none;
+    padding-left: 30px;
+    margin-bottom: 50px;
+}
+
+.Update .card .card-body{
+    padding: 0;
+}
+
+.Update .card .card-body p{
+    margin-top: 20px;
+}
+
+.Update .card .card-body p span{
+      color:#fe5f55;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.Update .card .card-body .text-uppercase a{
+      color:#fe5f55;
+    font-size: 16px;
+    margin-right: 7px;
+}
+.Update .card .card-body .text-uppercase a:hover{
+  color: #000;
+  text-decoration: none;
+}
+
+.Update .card .card-body .icon-chat{
+    margin-right: 1px;
+
+}
+
+.Update .card .card-body p span:hover,.Update .card .card-body .text-uppercase a:hover{
+      color:#000;
+      transition: all .3s ease-in-out;
+}
+
+.Update .remove-padding-left{
+    padding-left: 0;
+}
+
+
+.Update .card .card-body .aa{
+    padding: 10px 15px;
+    background-color: #4c97ff;
+    color: #fff;
+    border-radius: 30px;
+}
+
+.Update .card .card-body .aa:hover{
+   text-decoration: none; 
+}
+
+
+
+/******* ending styling Update *****/
+
+/******* ending styling contact *****/
+
+.contact{
+    margin-top: 100px;
+}
+
+.contact .part1{
+    margin-bottom: 80px;
+}
+
+.contact .part2{
+    margin-top: 100px;
+    
+}
+
+.contact .part2 .row .myTarget{
+    background-color: #f8f9fa;
+    margin-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-top: 0;
+}
+
+.contact .part2 .row .myTarget:last-child{
+    margin-right: 0;
+    
+}
+.contact .part2 span{
+   color:#207dff;
+    font-size: 30px;
+    margin-bottom: 70px;
+}
+.contact .part2 h4{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.contact .part1 h2{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.contact .part1 p{
+    width: 50%;
+    margin: 0 auto;
+    color:#999;
+    font-size: 18px;
+}
+
+.contact .part2 p{
+      color:#999;
+}
+
+.contact .part2 a{
+    color: #000;
+}
+.contact .part2 a:hover{
+    color: #000;
+    text-decoration: none;
+}
+
+.contact .map{/* styling googlemap */
+      margin-top: 130px;    
+      margin-bottom: 150px;
+}
+
+.contact .myform{
+    margin-top: 130px;
+    padding-top: 60px;
+    margin-bottom: 150px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: #f8f9fa;
+}
+.contact .myform input{
+    padding:15px;
+ 
+}
+.contact .myform button{
+    padding: 15px 45px;
+    background-color: #fe5f55;
+    color: #fff;
+    border-radius: 30px;
+    margin-bottom: 60px;
+    font-size: 16px;
+    border:none;
+ 
+}
+
+
+
+.contact .part2 .row .myTarget span{
+    background-color: #fff;
+    width:90px;
+    height:90px;
+    line-height: 90px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+
+/******* ending styling contact *****/
+
+
+/******* Starting styling footer *****/
+
+.footer{
+     background-image: url("../img/footer-bg.jpg");
+     padding-top: 120px;
+     position: relative;
+    background-size: cover;
+}
+
+
+
+.footer .pp1 p{
+    line-height: 1.8;
+    margin: 45px 0;
+}
+
+.footer .pp1 li{
+    display:inline-block;
+    color:#fff;
+    background-color:#207dff;
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.footer .pp2 li{
+    margin-bottom: 13px;
+}
+
+.footer .pp2 li a:hover{
+    text-decoration: none;
+    color: #207dff;
+}
+
+.footer .icon{
+    color:#207dff;
+}
+
+.footer .icon-map-marker{
+    color:#000;
+}
+
+.footer .pp5 .icon {
+    
+}
+
+.footer .lastp{
+   padding: 80px 0;
+}
+
+/******* ending styling footer *****/
